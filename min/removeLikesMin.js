@@ -1,6 +1,1 @@
-setInterval(() => {
-    for (const d of document.querySelectorAll('div[data-testid="unlike"]')) {
-      d.click()
-    }
-    window.scrollTo(0, document.body.scrollHeight)
-  }, 1000)
+setInterval((()=>{for(const e of document.querySelectorAll('div[data-testid="unlike"]'))e.click();window.scrollTo(0,document.body.scrollHeight)}),1e3);
