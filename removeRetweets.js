@@ -4,9 +4,7 @@ function nextUnretweet() {
 function nextUnretweetConfirm() {
     return document.querySelector('[data-testid="unretweetConfirm"]')
 }
-function wait(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms))
-}
+
 async function removeAll() {
     let count = 0
     let next = nextUnretweet()
